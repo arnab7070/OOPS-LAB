@@ -7,7 +7,7 @@ class A{
 }
 class Prog5{
     public static void main(String[]args){
-         A a = new A();
+    A a = new A();
     System.out.println(a.x);//0
     a.show();
     }

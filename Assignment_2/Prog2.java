@@ -23,6 +23,8 @@ class Prog2{
         Cylinder c1= new Cylinder(Double.parseDouble(args[0]),Double.parseDouble(args[1]));
         System.out.println(c1.area);
         System.out.println(c1.circumference);
+        sc.close();
     }
-
+    // Volume = (1/3) × π × radius² × height (Cone)
+    // Area = πr² + πrl
 }
