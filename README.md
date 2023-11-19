@@ -1,3 +1,4 @@
+[![Purple-and-Black-Simple-Technology-Keynote-Presentation.gif](https://i.postimg.cc/d1B5fN6Y/Purple-and-Black-Simple-Technology-Keynote-Presentation.gif)](https://postimg.cc/DJSQJgRj)
 # OOPS-LAB
 
 Welcome to the "OOPS-LAB" repository! This repository is a collection of assignments related to Object-Oriented Programming (OOP) concepts. These assignments are designed to help you grasp fundamental and advanced principles of OOP using Java.
