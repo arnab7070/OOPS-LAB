@@ -27,7 +27,7 @@ class Prog1{
         Console c = System.console();
         String s1= c.readLine();
         System.out.println(s1);
-
+        sc.close();
     }
 
 }
