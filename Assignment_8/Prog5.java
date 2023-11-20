@@ -5,7 +5,7 @@ class Prog5{
         System.out.println("Some statement before exception throwing");
         System.out.println("Firing the checked exception through 'throw' keyword");
         try{
-        throw new IOException("hay hay meri ujaan this is a cheked exeption");
+            throw new IOException("ooo maa go turu love this is a checked exeption");
         }
         catch(IOException e){
             System.out.println(e.getMessage());
