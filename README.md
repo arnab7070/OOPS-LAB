@@ -12,6 +12,12 @@ Upon successful completion of this Lab, you will:
 - Understand the wrapper class, vectors, arrays in JAVA.
 - Develop interfaces - multiple inheritance, extending interfaces.
 
+## Important Commands:
+
+- To compile a java file: `javac filename.java`
+- To compile a java package file: `javac -d . filename.java`
+- To run a java file: `java filename` 
+
 Feel free to explore the assignments at your own pace. If you have any questions or suggestions, don't hesitate to [open an issue](https://github.com/arnab7070/OOPS-LAB/issues).
 
 ## Contributing
