@@ -43,10 +43,10 @@ class Prog5{
         System.out.println(obj1.toString());
        Scientist obj2 = new Dscientist("Kakali",145,246,50,6);//Dynamic method Dispatching//
         System.out.println(obj2.toString());
-        // in line numbers  41 and 43 we are referncing to the child class obujects through their immediate parent class refernces.
-        // Beacuse the toString method is overridden inevery class //
-        // the Dynamic method sispatching follows that the resolution of overridden methods in java happens at runtime by JVM(Java virtual Machine) on the basis of the runtime object and no on the refernce types pointing to that object//
-        // so at line number 43 and 45 we even though are referncing to the scietist and sdceintist classs throguh their superclass refernces so obj1.toString( refers to the sceintist toStinr method)
-        //similarly for dscientist class//
+        // in line numbers  41 and 43 we are referncing to the child class objects through their immediate parent class refernces.
+        // Beacuse the toString method is overridden in every class //
+        // the Dynamic method dispatching follows that the resolution of overridden methods in java happens at runtime by JVM(Java virtual Machine) on the basis of the runtime object and no on the refernce types pointing to that object//
+        // so at line number 43 and 45 we even though are referrencing to the scietist and scientist classes through their superclass refernces so obj1.toString( refers to the sceintist toString method)
+        //similarly for Dscientist class//
     }
 }
