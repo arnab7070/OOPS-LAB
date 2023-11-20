@@ -2,14 +2,14 @@
 // the two classes and calculate their area.
 interface Shape{
    double pie=3.14;//every variable in an interface is by default public and final and static//
-    double area();//every mehtod in an interface is by default public and abstract
+    double area();//every method in an interface is by default public and abstract
 }
 class Circle implements Shape{
     double radius;
     Circle(double radius){
         this.radius=radius; 
     }
-    public double area(){ //take notice of the access modifier if you donot give any it will be default which is weaker assign privilege in java and for method overriding wre cant do that so alwas override interface methods in implementing class wiht a public acecss modifier//
+    public double area(){ //take notice of the access modifier if you do not give any it will be default which is weaker assign privilege in java and for method overriding wre can't do that so always override interface methods in implementing class with a public acecss modifier//
         return pie*radius*radius;
     }
 }
