@@ -1,13 +1,7 @@
 // Make several threads (say 5) with their names (implementing Runnable) set their priority and run them to see what happens.//
 class MyRunnable implements Runnable{
     public void run(){
-        System.out.println("Child Thread");
-        try{
-            Thread.sleep(4000);
-        }
-        catch(InterruptedException e){
-            System.out.println(e.getMessage());
-        }
+        System.out.println("Current Thread: " + Thread.currentThread().getName());
     }
 }
 class Prog4{
@@ -28,8 +22,6 @@ class Prog4{
     t3.start();
     t4.start();
     t5.start();
-    System.out.println("Main method priority: "+ Thread.currentThread().getPriority());
-    System.out.println("Main method");
 }
 
 
