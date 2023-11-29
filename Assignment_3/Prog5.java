@@ -37,12 +37,12 @@ class Dscientist extends Scientist{
 class Prog5{
     public static void main(String[]args){
         EMP obj= new EMP("Supratik",103);
-        System.out.println(obj.toString());
+        System.out.println(obj);
         EMP obj1 = new Scientist("Shyamal",165,143,40);//Dynamic method Dispatching//
         //(parent class refernce to child class object)
-        System.out.println(obj1.toString());
+        System.out.println(obj1);
        Scientist obj2 = new Dscientist("Kakali",145,246,50,6);//Dynamic method Dispatching//
-        System.out.println(obj2.toString());
+        System.out.println(obj2);
         // in line numbers  41 and 43 we are referncing to the child class obujects through their immediate parent class refernces.
         // Beacuse the toString method is overridden inevery class //
         // the Dynamic method sispatching follows that the resolution of overridden methods in java happens at runtime by JVM(Java virtual Machine) on the basis of the runtime object and no on the refernce types pointing to that object//
