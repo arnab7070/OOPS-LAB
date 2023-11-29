@@ -7,7 +7,6 @@ class Prog4{
     }
     public static void main(String[]args){
         System.out.println(x);//error as x is instance and x cannot be accessed directly from a static area//
-        show();//error as show() is instance and show() cannot be accessed directly from a static area//
-        
+        show(); //error as show() is instance and show() cannot be accessed directly from a static area// 
     }
 }

@@ -19,7 +19,7 @@ class Prog8 {
             s2.reverse();
             System.out.println(s2);
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.println("Chutia gune de string er length er baire beriye geche kono ekta integer tor matal");
+            System.out.println("Bhai gune de ontoto string er length er baire beriye geche kono ekta integer tor matal");
         } catch (NumberFormatException e) {
             System.out.println("Ore madon string ke ami number e parseInt korbo ami ki bangla kheyechi naki tor moto. Thik kore de number de number 2nd argument ar 3rd argument ta number hobe");
         } catch (ArrayIndexOutOfBoundsException e) {

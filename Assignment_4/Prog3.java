@@ -11,8 +11,6 @@
 // e. Check for minimum balance, impose penalty, if necessary, and update the balance.
 // Use constructors to initialize the class members.
 
-import java.util.Scanner;
-
 class Account {
     String customerName;
     int accountNumber;
