@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Question10 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try{ Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string: ");
         String str = sc.nextLine();
         System.out.print("Enter the starting index: ");
@@ -17,6 +17,12 @@ public class Question10 {
         System.out.print("Enter how many characters are to be extracted: ");
         int m = sc.nextInt();
         System.out.println(str.substring(n, n + m));
-        sc.close();
+        sc.close();}
+           
+        
+        catch(StringIndexOutOfBoundsException e){
+            System.out.println(e.toString());
+        }
+        
     }
 }
